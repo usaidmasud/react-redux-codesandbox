@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "./containers/pages/Counter";
 import "./styles.css";
 
 const initialTodos = [
@@ -19,10 +20,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Todo</h1>
-        <ul style={{ textAlign: "left" }}>
-          <li>Syar</li>
-        </ul>
+        <h1>REDUX</h1>
+        <hr />
+        <Counter />
       </div>
     );
   }
